@@ -45,17 +45,13 @@
     border-radius: .4rem;
     padding: .5rem;
     width: 11vh;
+    text-align: center;
+    text-decoration: none;
     font-weight: 800;
     border: none;
 }
 
-.container-link a {
-    text-decoration: none;
-    font-weight: 800;
-    color: var(--gray950);
-}
-
-.container-link a:hover {
+.container-link:hover {
     color: var(--white);
 }
 

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray500: hsl(0, 0%, 42%);
+    --gray950: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+.hero {
+    min-height: 100vh;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    background-color: var(--white);
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+    border: 1px solid black;
+    box-shadow: 8px 8px;
+    gap: 1.2rem;
+}
+
+.container-img {
+    border-radius: .75rem;
+    width: 100%;
+}
+
+.container-link {
+    background-color: var(--yellow);
+    color: var(--gray950);
+    border-radius: .4rem;
+    padding: .5rem;
+    width: 11vh;
+    font-weight: 800;
+    border: none;
+}
+
+.container-link a {
+    text-decoration: none;
+    font-weight: 800;
+    color: var(--gray950);
+}
+
+.container-link a:hover {
+    color: var(--white);
+}
+
+.container-time {
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.container-title {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.container-title:hover {
+    color: var(--yellow);
+}
+
+.container-description {
+    color: var(--gray500);
+    font-size: .9rem;
+}
+
+.container-user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container-user__avatar {
+    width: 2.5rem;
+}
+
+.container-user__name {
+    font-weight: 800;
+}
+
+.container-user__name:hover {
+    text-decoration: underline;
+    color: var(--yellow);
+}
